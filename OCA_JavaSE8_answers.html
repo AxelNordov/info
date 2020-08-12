@@ -105,7 +105,6 @@
 
 		div.answer {
 			height: 100vh;
-			weight: 100vw;
 		}
 	</style>
 
@@ -114,26 +113,22 @@
 
 <body id="Untitled-1" lang="en-US">
 	<div id="_idContainer000" class="_idGenObjectStyleOverride-1">
-		<div class="answer">
+		
 			<p class="link" id="10-41">10-41.</p>
 			<p class="answerletters">D.</p>
 			<p class="Basic-Paragraph">When converting an array to a List, Java uses a fixed-sized backed list. This means that the list uses an array in the implementation. While changing elements to
 				new values is allowed, adding and removing elements is not.</p>
-
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-42">10-42.</p>
 			<p class="answerletters">A, D.</p>
 			<p class="Basic-Paragraph">Variable names can begin with an underscore, making Option A correct. To use an underscore in a numeric literal, it must be between two digits, making Option D
 				correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-43">10-43.</p>
 			<p class="answerletters">B.</p>
 			<p class="Basic-Paragraph">While no arguments are passed from the command line, this doesn’t matter because the main() method redefines the args array. Remember that String values sort
 				alphabetically rather than by number. Therefore, 01 sorts before 1, and Option B is correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-44">10-44.</p>
 			<p class="answerletters">D.</p>
 			<p class="Basic-Paragraph">The public modifier allows access members in the same class, package, subclass, or even classes in other packages, while the static modifier allows access
@@ -143,25 +138,21 @@
 				prevents classes that are not subclasses and are outside the package from accessing the variable. Finally, Option E is incorrect. The default keyword is for interface methods and
 				switch
 				statements, not class variables.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-45">10-45.</p>
 			<p class="Basic-Paragraph">Looping through the same list multiple times is allowed. Notice how there are not braces around the loops. This means that only the print statement is inside the
 				loop. It executes four times. However, the println() only executes once at the end, making Option A the answer.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-46">10-46.</p>
 			<p class="answerletters">C, D.</p>
 			<p class="Basic-Paragraph">The javac command compiles a .java file into a .class bytecode file, making Option C a correct answer, while also making Options B, E, and F incorrect. The javac
 				command compiles to a set of java instructions, or bytecode, not machine instructions, making Option A incorrect and Option D correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-47">10-47.</p>
 			<p class="Basic-Paragraph">The parseInt() method returns an int primitive. Thanks to autoboxing, we can also assign it to an Integer wrapper class object reference. The char and short
 				types
 				are smaller than int so they cannot store the result. Therefore, lines 3 and 4 compile, and Option C is correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-48">10-48.</p>
 			<p class="answerletters">B, D, F.</p>
 			<p class="Basic-Paragraph">The compiler will broaden the data type on a numeric value until it finds a compatible signature. There are two versions of the drive() methods that return a
@@ -175,16 +166,14 @@
 				are no other matching method signatures that take a byte value. Finally, Option F is correct because float can be implicitly converted to double, and there is no other version of
 				drive()
 				that takes a float value.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-49">10-49.</p>
 			<p class="Basic-Paragraph">Trick question. This appears to be about equality, but it is really about you recognizing that the main() method is missing the static keyword. Running this
 				problem
 				gives a runtime exception because the main() method is not properly declared. Therefore, Option A is the answer. If this was fixed, the answer would be Option C because the int and
 				String
 				comparisons return true.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-50">10-50.</p>
 			<p class="Basic-Paragraph">The code compiles without issue, so Options E and F are incorrect. Note that line p2 accesses a static method using an instance reference, which is discouraged
 				but
@@ -194,8 +183,7 @@
 				RuntimeException catch block is executed and 2 is printed. The rest of the catch blocks are skipped, since the first one was selected. The finally block then executes and prints 4.
 				Lastly,
 				control is returned to the main() method without an exception being thrown, and 5 is printed. Since 245 is printed, Option D is the correct answer.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-51">10-51.</p>
 			<p class="answerletters">E.</p>
 			<p class="Basic-Paragraph">In the first iteration through the loop, container is 2 and cup is printed. Notice how the loop body subtracts 1 to account for indexes being zero based in Java.
@@ -204,8 +192,7 @@
 				There isn’t one and the code throws an exception. This makes Option E correct. You might be tempted to think this is an infinite loop. If the body did not throw an exception, it would
 				be!
 			</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-52">10-52.</p>
 			<p class="answerletters">A, E, F.</p>
 			<p class="Basic-Paragraph">An entry point in a Java application consists of a main() method with a single String[] or vararg String... argument, return type of void, and modifiers public
@@ -214,8 +201,7 @@
 				B is
 				incorrect because the argument is a single String. Option C is incorrect, since the access modifier is incorrectly marked protected. Finally, Option D is incorrect because it has two
 				return types, int and void.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-53">10-53.</p>
 			<p class="answerletters">C, D, E.</p>
 			<p class="Basic-Paragraph">For this question, it helps to remember that the value of a case statement must be a literal expression or a final constant variable, and have a compatible data
@@ -223,8 +209,7 @@
 				Line 12 uses a variable that is not marked final. Next, a switch statement may only have one default block. Therefore, Line 11 or 14 must be removed. Since Line 14 is not in the list
 				of
 				options, Option D becomes the last correct answer. The rest of the lines are fine since removing Lines 10, 11, and 12 allows the code to compile.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-54">10-54.</p>
 			<p class="answerletters">A, B, C.</p>
 			<p class="Basic-Paragraph">All of the compilation issues with this code involve access modifiers. First, all interface methods are implicitly public, and explicitly setting an interface
@@ -238,16 +223,14 @@
 				be implicitly cast to a superclass or inherited interface. Finally, lines h5 and h6 will compile without issue but independently throw a ClassCastException and a NullPointerException
 				at
 				runtime, respectively. Since the question only asks about compilation problems, neither of these are correct answers.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-55">10-55.</p>
 			<p class="answerletters">B, E, F.</p>
 			<p class="Basic-Paragraph">Unchecked exceptions inherit the RuntimeException class and are not required to be caught in the methods where they are declared. Since ArithmeticException and
 				IllegalArgumentException extend RuntimeException, they are included as unchecked exceptions, making Options B, E, and F correct. The rest are checked exceptions, which inherit
 				Exception
 				but not RuntimeException.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-56">10-56.</p>
 			<p class="Basic-Paragraph">The code compiles without issue, making Options D and E incorrect. Applying the ternary ? : operator, the variable ship is assigned a value of 10.0. The
 				expression
@@ -256,8 +239,7 @@
 				statement is also executed. The expression in the second if-then statement evaluates to false, so the else statement is called and See you again is also printed. Therefore, Option F is
 				the
 				correct answer, with two statements being printed.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-57">10-57.</p>
 			<p class="answerletters">B, C, D.</p>
 			<p class="Basic-Paragraph">The clock variable is accessed by a class in the same package; therefore, it requires package-private or less restrictive access (protected and public). The
@@ -266,8 +248,7 @@
 				them the correct answer. Options A and F cause the Snooze class to fail to compile because the getTime() method is not accessible outside the package, even though Snooze is a subclass
 				of
 				Alarm. Option E causes the Coffee class to fail to compile because the clock variable is only visible within the Alarm class.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-58">10-58.</p>
 			<p class="Basic-Paragraph">This problem appears to be to be about overriding a method, but in fact, it is much simpler. The class CarbonStructure is not declared abstract, yet it includes
 				an
@@ -276,23 +257,20 @@
 				application, including the override on line q2, is correct and compiles without issue. The return types Long and Number are covariant since Number is a superclass of Long. Likewise,
 				the
 				exception thrown in the subclass method is narrower, so no compilation error occurs on q2.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-59">10-59.</p>
 			<p class="Basic-Paragraph">Line 5 does not declare a main() method that can be the entry point to the program. It does correctly declare a regular instance method and does compile. Line 6
 				does
 				not compile because LocalDate needs to use a static method rather than a constructor. Line 7 is incorrect because Period methods should not be chained. However, it does compile,
 				returning
 				a period of 1 day. Line 8 does not compile because the correct class name is DateTimeFormatter. Line 9 is correct. Option C is correct because lines 6 and 8 do not compile.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-60">10-60.</p>
 			<p class="answerletters">A, E.</p>
 			<p class="Basic-Paragraph">A try block can have zero or more catch blocks, and zero or one finally blocks, but must be accompanied by at least one of these blocks. For these reasons,
 				Options
 				B, D, and F are incorrect, and Option E is correct. A finally block must appear after the last catch block, if there are any, making Option C incorrect, and Option A correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-61">10-61.</p>
 			<p class="answerletters">B.</p>
 			<p class="Basic-Paragraph">The code compiles without issue, so Option E is incorrect. For this problem, it helps to remember that + and * have a higher precedence than the ternary ? :
@@ -301,8 +279,7 @@
 				statement, the first + operator is an addition operator, since the operands are numbers, resulting in the value of 4 + 9, 13. The second + operator is a concatenation since one of the
 				two
 				operands is a String. The result 13 is printed, making Option B the correct answer.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-62">10-62.</p>
 			<p class="answerletters">A, C, E.</p>
 			<p class="Basic-Paragraph">An object can be cast to a superclass or inherited interface type without an explicit cast. Furthermore, casting an object to a reference variable does not
@@ -312,46 +289,39 @@
 				object,
 				leading to a ClassCastException at runtime. Option D is also incorrect because assigning an object to a subclass reference variable requires an explicit cast. Finally, Option F is
 				incorrect. An object can always be cast to one of its inherited types, superclass or interface, without a ClassCastException being thrown.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-63">10-63.</p>
 			<p class="Basic-Paragraph">The array is not sorted. It does not meet the pre-condition for a binary search. Therefore, the output is not guaranteed and the answer is Option F.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-64">10-64.</p>
 			<p class="answerletters">B.</p>
 			<p class="Basic-Paragraph">While shoe3 goes out of scope after the shopping() method, the croc object is referenced by shoe1 and therefore cannot be garbage collected. Similarly, the
 				sandal
 				object is now referenced by shoe2. No variables reference the flip flop object, so it is eligible to be garbage collected, and Option B is correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-65">10-65.</p>
 			<p class="Basic-Paragraph">The throws keyword is used in method declarations, while the throw keyword is used to throw an exception to the surrounding process, and the finally keyword is
 				used
 				to add a statement that is guaranteed to execute even if an exception is thrown. For these reasons, Option E is the correct answer.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-66">10-66.</p>
 			<p class="answerletters">B, E.</p>
 			<p class="Basic-Paragraph">The first two iterations through the loop complete successfully, making Option B correct. However, the two arrays are not the same size and the for loop only
 				checks
 				the size of the first one. The third iteration throws an ArrayIndexOutOfBoundsException, making Option E correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-67">10-67.</p>
 			<p class="Basic-Paragraph">For this question, it helps to try all answers out. Most of them do not make any sense. For example, overloading a method is not a facet of inheritance.
 				Likewise,
 				concrete and abstract methods can both be overridden, not just one. The only answer that is valid is Option E. Without virtual methods, overriding a method would not be possible, and
 				Java
 				would not truly support polymorphism.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-68">10-68.</p>
 			<p class="Basic-Paragraph">The code does compile. Line s1 is a bit tricky because length is used for an array and length() is used for a String. Line s1 stores the length of the Fall in a
 				variable, which is 4. Line s2 throws an ArrayIndexOutOfBoundsException because 4 is not a valid index for an array with four elements. Remember that indices start counting with zero.
 				Therefore, Option E is correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-69">10-69.</p>
 			<p class="answerletters">D.</p>
 			<p class="Basic-Paragraph">The code definitely does not compile, so Option A is incorrect. The first problem with this code is that the Drum class is missing a constructor causing the
@@ -362,8 +332,7 @@
 				compile. While mn may be a reference variable that points to a Drum() object, the concert() method cannot be called unless it is explicitly cast back to a Drum reference. For these
 				three
 				reasons, the code does not compile, and Option D is the correct answer.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-70">10-70.</p>
 			<p class="answerletters">B.</p>
 			<p class="Basic-Paragraph">The application compiles and runs without issue, so Options E and F are incorrect. Java uses pass-by-value, so even though the change to length in the first line
@@ -373,8 +342,7 @@
 				assigned a value of 6, due to it being returned by the method. For the second parameter, while the String[] reference cannot be modified to impact the reference in the calling method,
 				the
 				data in it can be. Therefore, the value of the first element is set to LONG, resulting in an output of 6,LONG, making Option B the correct answer.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-71">10-71.</p>
 			<p class="answerletters">D.</p>
 			<p class="Basic-Paragraph">The first compilation problem with the code is that the second catch block in openDrawbridge() is unreachable since CableSnapException is a subclass of
@@ -383,29 +351,25 @@
 				appears in the second catch block as well as the embedded try-catch block. Finally, the openDrawbridge() method declares the checked Exception class, but it is not handled in the
 				main()
 				method with a try-catch block, nor in the main() method declaration. For these three reasons, Option D is correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-72">10-72.</p>
 			<p class="answerletters">D.</p>
 			<p class="Basic-Paragraph">Object orientation is the property of structuring an object with its related data and methods. Encapsulation is the property of removing direct access to the
 				underlying data from processes outside the class. The two go hand and hand to improve class design, making Option D the correct choice.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-73">10-73.</p>
 			<p class="answerletters">E.</p>
 			<p class="Basic-Paragraph">In Java, String is a class and not a primitive. This means it needs to begin with an uppercase letter in the declaration. The code does not compile, making
 				Option E
 				correct. If this was fixed, the answer would be Option B.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-74">10-74.</p>
 			<p class="Basic-Paragraph">This class is called with three command-line arguments. First the array is sorted, which meets the pre-condition for binary search. At this point, the array
 				contains
 				[flower, plant, seed]. The key is to notice the value of args[0] is now flower rather than seed. Calling binary search to find the position of flower returns 0, which is the index
 				matching
 				that value. Therefore, the answer is Option A.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-75">10-75.</p>
 			<p class="answerletters">B, C, D.</p>
 			<p class="Basic-Paragraph">A for-each loop is a specialized loop that just iterates through an array or list. It can be rewritten using explicit indexing code in any of the other three
@@ -413,28 +377,24 @@
 				types. Therefore, Options B, C, and D are correct. Option A is incorrect because a do-while loop is guaranteed to execute at least once. Option E is incorrect because the traditional
 				for
 				loop can loop backwards or by skipping indexes. Option F is incorrect because non-index-related boolean conditions are allowed to be used in a while loop.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-76">10-76.</p>
 			<p class="answerletters">E.</p>
 			<p class="Basic-Paragraph">The LocalDate class is only for day/month/year values. It does not support time, so getHour() and plusHours() do not compile, making Option E the answer.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-77">10-77.</p>
 			<p class="Basic-Paragraph">All arrays are objects regardless of whether they point to primitives or classes. That means both balls and scores are objects. Both are set to null so they are
 				eligible for garbage collection. The balls array is initialized to all null references. There are no objects inside. The scores array is initialized to all 0 values. Therefore, only
 				two
 				objects exist to be eligible for garbage collection, and Option C is correct.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-78">10-78.</p>
 			<p class="Basic-Paragraph">Since there are not brackets around the while loop, only line 17 is in the loop body. Line 18 gets executed once after the loop completes. This means that count
 				will
 				be 1 assuming the loop completes. Subtracting a month from JANUARY results in DECEMBER. Since the loop completes E is incorrect and Option B is the answer. Note that if the brackets
 				were
 				added as the indentation suggests, Option D would be the answer since we are counting months backwards.</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-79">10-79.</p>
 			<p class="Basic-Paragraph">Line 10 does not compile because the override reduces the visibility of an inherited method, with the package-private modifier being more restrictive than the
 				protected modifier. Line 11 does also not compile, since the left-hand side of a compound assignment operator must be used with a variable, not a method. Finally, Line 12 does not
@@ -442,14 +402,13 @@
 				because super.grunt() is inherited as an abstract method in the PolarBear class, meaning the parent class has no implementation. For these three reasons, Option D is the correct
 				answer.
 			</p>
-		</div>
-		<div class="answer">
+			<div class="answer"></div>
 			<p class="link" id="10-80">10-80.</p>
 			<p class="answerletters">B, E.</p>
 			<p class="Basic-Paragraph">Package-private, or default, access is denoted by the absence of an access modifier, making Option A incorrect. Option B is correct, since a switch statement can
 				contain a default execution path. Options C and F are incorrect because keywords in Java cannot be used as method or variable names. Finally, interfaces can contain default interface
 				methods but they must be concrete with a method body. For this reason, Option E is correct and Option D is incorrect.</p>
-		</div>
+			<div class="answer"></div>
 	</div>
 </body>
 
